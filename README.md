@@ -86,7 +86,24 @@ The sensitivity for the low risk applicants is high (0.89), this means that we p
 
 ### Recall 
 
+- EasyEnsembleClassifier: ![image](https://user-images.githubusercontent.com/113566508/220242688-375b1783-8bf2-44d8-aaeb-4fc777bb4d6f.png)
+
+### Precision
+The precision of the high risk credit applicants was low, which means that there were many low risk applicants predicted as high risk applicants, this is not so influential. It is not as low as the others, but this is not important in this case. 
+
+The precision of the low risk credit applicant was very close to 1, because there were just 8 high risk applicants predicted as low risk. 
+
+### Sensitivity
+For this prediction we want to make, the sensitivity is more important because we prefer to have low risk applicants predicted as high risk applicants, than high risk applicants as low risk. 
+
+The sensitivity for the high risk applicants is the best one yet, because we are predicting 84 high risk applicants from 92. This means that just 9% percentage of the high risk applicants are receiving their loan. 
+
+The sensitivity for the low risk applicants is the best one yet, this means that we predicted 15,999 low risk applicants from 17,113 low risk applicants, this means that we are incorrectly not giving a loan to just the 7% of the applicants that should receive it. 
+
+### Recall 
+
 ## Summary
+
 
 
 
